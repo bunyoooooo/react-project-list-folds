@@ -1,0 +1,114 @@
+.cards {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.card {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 28px 29px;
+    margin: 10px 0;
+    border-radius: 3px;
+    box-shadow: 2px 4px 8px 1px #1c86d733;
+    position: relative;
+    height: 150px;
+}
+.card-line {
+    width: 5px;
+    height: 150px;
+    background: rgb(97, 168, 163);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.card-logo {
+
+}
+.card_texts {
+        display: flex;
+        flex-direction: column;
+        
+        height: 100%;
+        width: 400px;
+        margin-left: 40px;
+        row-gap: 10px;
+}
+.card-onerow {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.folder {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    color: rgb(97, 168, 163);
+}
+.profesion {
+}
+.newer {
+    font-size: 20px;
+    font-weight: 500;
+    list-style:24px;
+    color: white;
+    background-color: rgb(97, 168, 163);
+    width: 70px;
+    height: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.featured {
+    font-size: 20px;
+    font-weight: 500;
+    list-style:24px;
+    color: white;
+    background-color: black;
+    width: 170px;
+    height: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card-tworow {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.card-name {
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 21px;
+}
+.lastactive {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+}
+.card-fiches {
+    display: flex;
+    justify-content: end;
+    column-gap: 10px;
+    width: 50%;
+    margin-left: 200px;
+}
+.fiches {
+    font-size: 20px;
+    font-weight: 500;
+    list-style:24px;
+    color: rgb(97, 168, 163);
+    background-color: rgba(195, 255, 251, 0.479);
+    width: auto;
+    padding: 10px 12px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
